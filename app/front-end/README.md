@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+npm install jquery popper.js bootstrap --save 
 ```
 
 ### Compiles and hot-reloads for development
