@@ -6,6 +6,7 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import axios from 'axios'
+import Vuelidate from 'vuelidate'
 
 axios.defaults.baseURL = '/api'
 axios.defaults.headers.common.Accept = 'application/json'
@@ -17,6 +18,7 @@ axios.interceptors.response.use(
 )
 
 Vue.use(BootstrapVue)
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
 
