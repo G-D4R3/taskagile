@@ -4,6 +4,8 @@
 ```
 npm install
 npm install jquery popper.js bootstrap --save 
+npm install axios --save
+npm install moxios --save-dev
 ```
 
 ### Compiles and hot-reloads for development
