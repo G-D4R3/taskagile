@@ -1,7 +1,7 @@
 package com.taskagile.domain.application;
 
 import com.taskagile.domain.application.commands.RegistrationCommand;
-import com.taskagile.domain.application.model.user.RegistrationException;
+import com.taskagile.domain.model.user.RegistrationException;
 
 public interface UserService {
   /**

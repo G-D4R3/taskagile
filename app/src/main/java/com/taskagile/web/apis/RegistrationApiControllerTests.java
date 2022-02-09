@@ -1,8 +1,8 @@
 package com.taskagile.web.apis;
 
 import com.taskagile.domain.application.UserService;
-import com.taskagile.domain.application.model.user.EmailAddressExistsException;
-import com.taskagile.domain.application.model.user.UsernameExistsException;
+import com.taskagile.domain.model.user.EmailAddressExistsException;
+import com.taskagile.domain.model.user.UsernameExistsException;
 import com.taskagile.utils.JsonUtils;
 import com.taskagile.web.payload.RegistrationPayload;
 import org.junit.Test;
